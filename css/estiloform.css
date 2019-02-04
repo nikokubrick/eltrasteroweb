@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Fahkwang:400,700|Oswald:400,700');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+/*---------------------------------------Estilos base---------------------------------------*/
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
