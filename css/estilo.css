@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .main-header__contactInfo__phone {
-    background: #de423a;
-    color: antiquewhite;
+    background: #E7E7A1 ;
+    color:cadetblue;
     margin: 0 auto;
     padding: 10px;
     }
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 60px;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,.90);
+    background: rgba(0,0,0,.70);
     padding: 0;
     margin: 0;
     list-style: none;
@@ -126,15 +126,15 @@ h1, h2, h3, h4, h5, h6 {
 .menu__link {
     display: block;
     padding: 15px;
-    color: white;
+    color:cadetblue;
     text-decoration: none;
 
 }
 .menu__link:hover {
-    background: #de423a;
+    background: #E7E7A1;
 }
 .menu__link--select {
-    background: #de423a;
+    background: #E7E7A1;
 
 }
 .mostrar {
@@ -179,8 +179,8 @@ h1, h2, h3, h4, h5, h6 {
 /*---------------------------estilos principales-----------------------------------*/
 
 .group--color .container {
-    background: #de423a;
-    color: white;
+    background: #E7E7A1;
+    color:cadetblue;
     padding: 10px;
     text-align: center;
 
@@ -210,14 +210,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     text-decoration: none;
     width: 120px;
-    background: #de423a;
-    color: white;
+    background: #E7E7A1;
+    color:cadetblue;
     padding: 10px;
     margin: 10px auto;
 }
 
 .group__title{
     font-family: 'Fahkwang';
+    background:;
+    color: cadetblue;
     text-align: center;
     font-size: 1.8em;
     margin: 30px;
