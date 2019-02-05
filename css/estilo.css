@@ -38,13 +38,17 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .logo {
-    width: 20%;
-    height: 20%;
+   font-size: 1.8em;
+    color:cadetblue;
     padding: 10px;
-
-
-
+    font-family: 'Fahkwang', bold;
+    font-weight: 100;
 }
+
+
+
+
+
 .main-header__contactInfo__phone {
     background: #E7E7A1 ;
     color:cadetblue;
