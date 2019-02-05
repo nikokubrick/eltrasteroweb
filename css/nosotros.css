@@ -1,18 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Fahkwang:400,700|Oswald:400,700');
-* {
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Oswald', sans-serif;
-    margin: 0;
-}
-/*---------------------------------------Estilos base---------------------------------------*/
+.our-team {
+    text-align: center;
+    margin-bottom: 20px;
 
-img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
+
 }
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+.our-team .container__flex {
+
+}
+.our-team__title {
+    font-family: 'Fahkwang';
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.our-team__img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+
+
 }
