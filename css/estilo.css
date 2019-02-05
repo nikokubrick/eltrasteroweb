@@ -283,6 +283,10 @@ h1, h2, h3, h4, h5, h6 {
     right: 5px;
 
 }
+.column__title {
+        font-size: 1em;
+        color: cadetblue;
+    }
 
 /*------------------------------------estilos responsive-----------------------------------*/
 
@@ -326,8 +330,8 @@ h1, h2, h3, h4, h5, h6 {
     .column--50-25 {
         width: 49%;
     }
-    .column--33 {
-        width: 32%;
+    .column--25 {
+        width: 24%;
     }
     .main__about__description .column:nth-child(2) {
         padding-left: 20px;
@@ -347,6 +351,14 @@ h1, h2, h3, h4, h5, h6 {
         height: 200px;
         object-fit: cover;
 
+    }
+    .logo__img {
+        height: 200px;
+        object-fit: contain;
+    }
+    .column__title {
+        font-size: 1em;
+        color: cadetblue;
     }
 
 }
@@ -373,6 +385,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .column__title {
         font-size: 1em;
+        color: cadetblue;
     }
     .group__title {
         font-size: 2.2em;
