@@ -46,3 +46,22 @@ align-items: flex-start;
 
 
 }
+@media screen and (min-width:1024px) {
+    .our-team_img {
+        width: 310px;
+        height: 310px;
+    }
+    .our-team__title {
+        font-size: 2.1em;
+    }
+
+
+}
+@media screen and (min-width:1600px) {
+    .our-team_img {
+        width: 420px;
+        height: 420px;
+    }
+
+
+}
