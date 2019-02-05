@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/galeria.css">
     <link href="https://file.myfontastic.com/gTnKiuD9paB4opZFJpwHKA/icons.css" rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="img/logo.jpg" />
+    <link rel="icon" type="image/jpg" href="img/logo.jpg">
 
 </head>
 <body>
@@ -55,9 +55,32 @@
     <main class="main">
        <section class="group contact">
            <h2 class="group__title">Contactenos</h2>
-           <div class="container container__flex">
-               <div class="contact-information column column--50"></div>
-               <div class="formulario column column--50"></div>
+           <div class="container container--flex">
+               <div class="contact-information column column--50">
+                   <h3 class="column__title">Informacion de Contacto</h3>
+                   <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nihil illum unde doloribus repellat quas esse recusandae, voluptates eius dicta illo, fugiat velit incidunt.</p>
+                   <p class="column__txt"><span class="icon-phone"></span>+34 871 53 12 08</p>
+                   <p class="column__txt"><span class="icon-location"></span>Cabrit i Bassa 5 (10.401,38 km)
+07340 Alaró Mallorca</p>
+                   <p class="column__txt"><span class="icon-mail"></span>eltrastero_alaro@hotmail.com</p>
+                   <div class="social-icon">
+                      <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                      <a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
+                      <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+
+                   </div>
+               </div>
+               <form action="" method="post" class="formulario column column--50">
+                   <label for="" class="formulario__label">Nombre:</label>
+                   <input type="text" class="formulario__input-txt" name="nombre">
+                   <label for="" class="formulario__label">Correo:</label>
+                   <input type="text" class="formulario__input-txt" name="correo">
+                   <label for="" class="formulario__label">Telefono:</label>
+                   <input type="text" class="formulario__input-txt" name="telefono">
+                   <label for="" class="formulario__label">Mensaje:</label>
+                   <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                   <input type="submit" class="btn formulario__btn" value="Enviar">
+               </form>
            </div>
        </section>
 
