@@ -4,8 +4,8 @@
 
 
 }
-.our-team .container__flex {
-
+.our-team .container--flex {
+align-items: flex-start;
 }
 .our-team__title {
     font-family: 'Fahkwang';
@@ -20,6 +20,29 @@
     object-fit: cover;
     border-radius: 50%;
     margin: auto;
+    margin-bottom: 20px;
+
+
+}
+.our-team__txt {
+    padding: 10px;
+
+
+}
+
+@media screen and (min-width:480px) {
+    .our-team_img {
+        width: 150px;
+        height: 150px;
+    }
+
+
+}
+@media screen and (min-width:768px) {
+    .our-team_img {
+        width: 220px;
+        height: 220px;
+    }
 
 
 }
