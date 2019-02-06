@@ -10,6 +10,7 @@
 .contact-information .column__title {
     font-family: monospace;
     font-weight:bold;
+    font-size: 1.5em;
 
 
 
@@ -63,11 +64,21 @@
 }
 
 @media screen and (min-width:480px) {
+
+    .contact .container--flex {
+        align-items: flex-start;
+    }
     .contact-information p {
         font-size: 1em;
     }
     .contact-information {
         border-right: 1px solid #E7E7A1;
         border-bottom: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .contact-information p {
+        font-size: 1.2em;
     }
 }
