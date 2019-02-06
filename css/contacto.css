@@ -1,0 +1,42 @@
+.contact-information {
+    padding: 10px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E7E7A1;
+}
+.contact-information .column__title {
+    font-family: monospace;
+    font-weight:bold;
+
+
+
+}
+.contact-information [class*="icon-"] {
+    font-size: 1.3em;
+    margin-right: 7px;
+    position: relative;
+    top: 5px;
+}
+.contact-information .social-icon {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+
+
+}
+.contact-information .social-icon [class*="icon-"] {
+    background: black;
+    color: white;
+    margin-left: 0;
+    margin-right: 15px;
+
+}
+.formulario {
+    padding: 10px;
+    padding-top: 0;
+
+}
+.formulario__label, .formulario__input-txt, .formulario__textarea {
+    display: block;
+    width: 100%;
+
+}
