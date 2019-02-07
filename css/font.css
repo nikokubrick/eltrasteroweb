@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "sitio-web";
-  src:url("fonts/sitio-web.eot");
-  src:url("fonts/sitio-web.eot?#iefix") format("embedded-opentype"),
-    url("fonts/sitio-web.woff") format("woff"),
-    url("fonts/sitio-web.ttf") format("truetype"),
-    url("fonts/sitio-web.svg#sitio-web") format("svg");
+  src:url("../fonts/sitio-web.eot");
+  src:url("../fonts/sitio-web.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/sitio-web.woff") format("woff"),
+    url("../fonts/sitio-web.ttf") format("truetype"),
+    url("../fonts/sitio-web.svg#sitio-web") format("svg");
   font-weight: normal;
   font-style: normal;
 
