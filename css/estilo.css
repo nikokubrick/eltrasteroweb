@@ -3,8 +3,18 @@
     src: url(../fonts/Fahkwang-Regular.ttf);
 }
 @font-face {
+    font-family:"Fahkwang";
+    src: url(../fonts/Fahkwang-Bold.ttf);
+    font-weight:bold;
+}
+@font-face {
     font-family:"Oswald";
     src: url(../fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family:"Fahkwang";
+    src: url(../fonts/Fahkwang-Bold.ttf);
+    font-weight:bold;
 }
 * {
     box-sizing: border-box;
