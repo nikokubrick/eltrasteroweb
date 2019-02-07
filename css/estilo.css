@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Fahkwang:400,700|Oswald:400,700');
+@font-face {
+    font-family:"Fahkwang";
+    src: url(../fonts/Fahkwang-Regular.ttf);
+}
+@font-face {
+    font-family:"Oswald";
+    src: url(../fonts/Oswald-Regular.ttf);
+}
 * {
     box-sizing: border-box;
 }
