@@ -49,8 +49,7 @@
     font-size: 2em;
     text-align: center;
     border-radius: 50%;
-    font-family: monospace;
-
+    font-family: 'Hepta Slab', serif;
 }
 .modal--open {
     display: block;
