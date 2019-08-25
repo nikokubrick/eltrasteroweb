@@ -141,12 +141,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     height: 0;
     overflow: hidden;
-    transition: height .3s linear;
+    transition: height .2s linear;
 
 }
 .menu__link {
     display: block;
-    padding: 15px;
+    padding: 10px;
     color:burlywood;
     text-decoration: none;
 
