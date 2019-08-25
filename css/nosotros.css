@@ -16,9 +16,9 @@ align-items: flex-start;
 }
 .our-team__img {
     height: 200px;
-    width: 200px;
+    width: 300px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     margin: auto;
     margin-bottom: 20px;
 

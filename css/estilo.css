@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 .column {
-    width: 100%;
+    width: 80%;
 
 }
 /*---------------------------------------Estilos header---------------------------------------*/
@@ -208,9 +208,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main__title {
-    margin: 15px 0;
-    font-size: 1.8em;
-    font-family: 'Fahkwang';
+    margin: 15px 2px;
+    font-size: 0.5em;
+    font-family: 'Hepta Slab', serif;
 
 }
 .main__txt {
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .group__title{
-    font-family: 'Fahkwang';
+    font-family: 'Hepta Slab', serif;
     color: #141618;
     text-align: center;
     font-size: 1.8em;
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 24%;
     }
     .column--33 {
-        width: 33%;
+        width: 100%;
     }
     .main__about__description .column:nth-child(2) {
         padding-left: 20px;
