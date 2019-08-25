@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .logo {
    font-size: 1.8em;
-    color:cadetblue;
+    color:burlywood;
     padding: 10px;
     font-family: 'Fahkwang', bold;
     font-weight: 100;
@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .main-header__contactInfo__phone {
-    background: #E7E7A1 ;
-    color:cadetblue;
+    background: #F3EDDB ;
+    color:burlywood;
     margin: 0 auto;
     padding: 10px;
     }
@@ -95,8 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .icon-menu {
     display: block;
-    color: white;
-    border: 1px solid white;
+    color: #F3EDDB;
+    border: 1px solid #F3EDDB;
     border-radius: 3px;
     width: 40px;
     height: 40px;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .social-icon [class*="icon-"] {
-    color: black;
+    color: #141618;
     margin-left: 10px;
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.3em;
     width: 35px;
     height: 35px;
-    background: white;
+    background: #F3EDDB;
     border-radius: 50%;
 }
 .social-icon__link {
@@ -147,15 +147,15 @@ h1, h2, h3, h4, h5, h6 {
 .menu__link {
     display: block;
     padding: 15px;
-    color:cadetblue;
+    color:burlywood;
     text-decoration: none;
 
 }
 .menu__link:hover {
-    background: #E7E7A1;
+    background: #F3EDDB;
 }
 .menu__link--select {
-    background: #E7E7A1;
+    background: #F3EDDB;
 
 }
 .mostrar {
@@ -200,8 +200,8 @@ h1, h2, h3, h4, h5, h6 {
 /*---------------------------estilos principales-----------------------------------*/
 
 .group--color .container {
-    background: #E7E7A1;
-    color:cadetblue;
+    background: #F3EDDB;
+    color:#141618;
     padding: 10px;
     text-align: center;
 
@@ -231,15 +231,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     text-decoration: none;
     width: 120px;
-    background: #E7E7A1;
-    color:cadetblue;
+    background: #F3EDDB;
+    color:#141618;
     padding: 10px;
     margin: 10px auto;
 }
 
 .group__title{
     font-family: 'Fahkwang';
-    color: cadetblue;
+    color: #141618;
     text-align: center;
     font-size: 1.8em;
     margin: 30px;
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------estilos del footer-------------------------------*/
 
 .main-footer {
-    background: #222;
+    background: #141618;
     color: white;
     padding: 10px;
     padding-top: 20px;
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .column__title {
         font-size: 1em;
-        color: cadetblue;
+        color: #141618;
     }
 
 /*------------------------------------estilos responsive-----------------------------------*/
@@ -379,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .column__title {
         font-size: 1em;
-        color: cadetblue;
+        color: burlywood;
     }
 
 }
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .column__title {
         font-size: 1em;
-        color: cadetblue;
+        color: burlywood;
     }
     .group__title {
         font-size: 2.2em;
