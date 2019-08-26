@@ -22,6 +22,7 @@
 body {
     font-family: 'Hepta Slab', serif;
     margin: 0;
+
 }
 /*---------------------------------------Estilos base---------------------------------------*/
 
@@ -278,19 +279,27 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: .8em;
+    font-size: .9em;
+
 }
 
 .main-footer .container--flex {
     align-items: flex-start;
+    text-decoration: none;
 
 }
 .copy {
     text-align: center;
     margin: auto;
     margin-top: 15px;
+    text-decoration:none;
+    text-decoration-color: burlywood;
 
 }
+
+
+
+
 .main-footer [class*="icon-"] {
     color: white;
     text-decoration: none;
@@ -306,6 +315,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1em;
         color: #141618;
     }
+
 
 /*------------------------------------estilos responsive-----------------------------------*/
 
