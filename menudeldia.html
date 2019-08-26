@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/galeria.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="icon" type="image/jpg" href="img/logo.jpg">
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
@@ -16,6 +17,12 @@
 
 </head>
 <body>
+   <div class="modal" id="modal">
+       <div class="modal__content">
+           <img src="" alt="" class="modal__img" id="modal__img">
+       </div>
+       <div class="modal__boton" id="modal__boton">X</div>
+   </div>
     <header class="main-header">
        <div class="container container--flex">
          <div class="logo-container column column--50"><h1 class="logo">El Trastero Cuina Bar</h1></div>
@@ -57,20 +64,23 @@
          <div class="banner__content">Toda la variedad de nuestro menu</div>
      </section>
 
-    <main class="main">
-        <section class="group main__about__description">
-             <div class="container container--flex">
-                    <div class="column column--50">
-                        <img src="img/carta1.jpg" alt="">
+    <br>
+     <main class="main">
+        <div class="group gallery">
 
-                    </div>
-                    <div class="column column--50">
-                        <img src="img/carta2.jpg" alt="">
-                    </div>
+            <div class="container container--flex">
 
-             </div>
-         </section>
+                <div class="column column--50-25">
 
+                    <img src="img/carta1.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/carta2.jpg" alt="" class="gallery__img gallery__img--big">
+
+                </div>
+
+            </div>
+        </div>
 
 
     </main>
@@ -101,5 +111,6 @@
          </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
