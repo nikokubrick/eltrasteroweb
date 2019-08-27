@@ -16,6 +16,11 @@
     src: url(../fonts/Fahkwang-Bold.ttf);
     font-weight:bold;
 }
+@font-face {
+    font-family:"euphorigenic";
+    src: url(../fonts/euphorigenic.ttf);
+
+}
 * {
     box-sizing: border-box;
 }
@@ -56,11 +61,11 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .logo {
-   font-size: 1.8em;
+   font-size: 2.8em;
     color:burlywood;
     padding: 10px;
-    font-family: 'Hepta Slab', serif;
-    font-weight: 100;
+    font-family: 'euphorigenic', serif;
+    font-weight: 250;
 }
 
 
@@ -322,6 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width:480px) {
     .logo {
         color: white;
+        font-size: 2.5em;
 
 
     }
@@ -428,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width:1024px)    {
 
     .logo {
-        font-size: 2em;
+        font-size: 3.5em;
         padding: 0;
     }
     .container {
